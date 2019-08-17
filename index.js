@@ -7,19 +7,19 @@ function subtract(b, a) {
 }
 
 function multiply(a, b) {
-  return parseInt(a) * parseInt(b)
+  return a * b
 }
 
 function divide(a, b) {
-  return parseInt(a) / parseInt(b)
+  return a / b
 }
 
 function inc(n) {
-  return parseInt(n + 1)
+  return n + 1
 }
 
 function dec(n) {
-  return parseInt(n - 1)
+  return n - 1
 }
 
 function makeInt(n) {
